@@ -63,17 +63,16 @@ int main(int argc, char *argv[])
     movements.push_back(STOP);
     movements.push_back(STOP);
 
-    movements.push_back(UP);
+    movements.push_back(ROTATE);
+    movements.push_back(ROTATE);
+    movements.push_back(ROTATE);
+    movements.push_back(ROTATE);
 
     movements.push_back(STOP);
     movements.push_back(STOP);
 
-    for (int i = 0; i < 4; i++) {
-        movements.push_back(FORWARD);
-        movements.push_back(STOP);
-        movements.push_back(ROTATE);
-        movements.push_back(STOP);
-    }
+
+    movements.push_back(FORWARD);
 
 
     movements.push_back(STOP);
